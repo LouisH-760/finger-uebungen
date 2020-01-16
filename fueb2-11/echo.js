@@ -1,3 +1,5 @@
+/* READ THE SCRIPT BECAUSE IDK WTF THIS IS SUPPOSED TO ACHIEVE */
+
 import {terminal} from "./dfhi.js";
 function echo() {
     let inputElement = document.getElementById("input");

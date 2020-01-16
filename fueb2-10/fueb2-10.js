@@ -12,5 +12,5 @@ window.main = function(...argv) {
 * Lern JavaScript
 * Write some programs
 * Make party`;
-	download("todo.txt", todo, "text/plain");
+	download("todo.txt", todo, "text/plain"); // lets the user download a .txt file with the content defined in the "todo" variable.
 };
