@@ -15,9 +15,9 @@ window.main = function(...argv) {
 		{"name": "Programmierung 3",
 			"credit":4, "type": "Pflichtfach"}
 	];
-	let l1 = data.filter(query => query["name"].charAt(query["name"].length - 1) == '1');
-	let l2 = data.filter(query => query["credit"] % 2 == 0);
+	let l1 = data.filter(query => query["name"].charAt(query["name"].length - 1) == '1'); // if the last character of the string == '1'
+	let l2 = data.filter(query => query["credit"] % 2 == 0); // if the credit is multiple of 2
 	terminal.printl(l1);
-	terminal.printh("<hr />");
+	terminal.printh("<hr />"); // separate the two outputs
 	terminal.printl(l2);
 };
